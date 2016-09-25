@@ -15,6 +15,16 @@
           }
         }
       },
+      "Mgazza.Newtonsoft.Json/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Mgazza.Optional": "1.0.0",
+          "Newtonsoft.Json": "8.0.3"
+        }
+      },
+      "Mgazza.Optional/1.0.0": {
+        "type": "package"
+      },
       "Microsoft.CodeAnalysis.Analyzers/1.1.0": {
         "type": "package"
       },
@@ -357,6 +367,9 @@
           "System.Xml.ReaderWriter": "4.0.11",
           "System.Xml.XDocument": "4.0.11"
         }
+      },
+      "Newtonsoft.Json/8.0.3": {
+        "type": "package"
       },
       "runtime.native.System/4.0.0": {
         "type": "package",
@@ -2085,6 +2098,26 @@
         "runtimes/win7-x86/native/libuv.dll"
       ]
     },
+    "Mgazza.Newtonsoft.Json/1.0.0": {
+      "sha512": "CGiMAhupTN1DW5LpUiGyW665W5a6Eok3s52lbBFO+0EgIuqRgsuDZLyteS5gUtLYBsmdYjAvxKNyB+MBz7ghAw==",
+      "type": "package",
+      "path": "Mgazza.Newtonsoft.Json/1.0.0",
+      "files": [
+        "Mgazza.Newtonsoft.Json.1.0.0.nupkg.sha512",
+        "Mgazza.Newtonsoft.Json.nuspec",
+        "lib/net452/Mgazza.Netwonsoft.Json.dll"
+      ]
+    },
+    "Mgazza.Optional/1.0.0": {
+      "sha512": "u3QiHDuMarXq87dMsxZPn4ffX+LmHPDGEfJ7Lw4OhsGN+aIQmGSpndbWleGVas41V7Er+gBPWmnFPSpT+pdhPQ==",
+      "type": "package",
+      "path": "Mgazza.Optional/1.0.0",
+      "files": [
+        "Mgazza.Optional.1.0.0.nupkg.sha512",
+        "Mgazza.Optional.nuspec",
+        "lib/net452/Mgazza.Optional.dll"
+      ]
+    },
     "Microsoft.CodeAnalysis.Analyzers/1.1.0": {
       "sha512": "GS3KlAAyuMtP4Qldd39OS0DSHgkvDG1T1RCkT6Lfe3u9dLAfaZSYDt5ohqHZZz1mXpnEJcdFdTQ2rQVHgOsF2Q==",
       "type": "package",
@@ -2449,6 +2482,28 @@
         "NETStandard.Library.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt"
+      ]
+    },
+    "Newtonsoft.Json/8.0.3": {
+      "sha512": "KGsYQdS2zLH+H8x2cZaSI7e+YZ4SFIbyy1YJQYl6GYBWjf5o4H1A68nxyq+WTyVSOJQ4GqS/DiPE+UseUizgMg==",
+      "type": "package",
+      "path": "Newtonsoft.Json/8.0.3",
+      "files": [
+        "Newtonsoft.Json.8.0.3.nupkg.sha512",
+        "Newtonsoft.Json.nuspec",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.xml",
+        "tools/install.ps1"
       ]
     },
     "runtime.native.System/4.0.0": {
@@ -6679,6 +6734,7 @@
   "projectFileDependencyGroups": {
     "": [],
     ".NETCoreApp,Version=v1.0": [
+      "Mgazza.Newtonsoft.Json >= 1.0.0",
       "Microsoft.FSharp.Core.netcore >= 1.0.0-alpha-160629",
       "Microsoft.NETCore.App >= 1.0.1"
     ]
